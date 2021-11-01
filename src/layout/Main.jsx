@@ -1,11 +1,12 @@
 import React from "react";
 import "./Main.css";
 
-const Main = () => {
+const Main = ({ children }) => {
  return (
- <div>
-     SeccionPrincipal
- </div>
+ <main>
+     	<h1 className="H1">Haikus</h1>
+	     {children}
+ </main>
  
 );
 
